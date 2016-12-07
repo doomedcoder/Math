@@ -3,7 +3,9 @@
 
 #To find the even numbers
 
+
 def find_Even(x):
+    x=raw_input("Type the Number");
     total=0;
     if (x==1):
         return x;
@@ -21,6 +23,7 @@ def find_Even(x):
 
 def find_Prime(x):
     Prime_factors=[];
+    x=raw_input("Type the Number");
     if (x==1):
         return x;
     
@@ -31,9 +34,6 @@ def find_Prime(x):
     
 #over !----------------------------!
 
-#Lets test it
-print(find_Even(4));
-print (find_Prime(4));
 
 
 
